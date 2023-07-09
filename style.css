@@ -153,9 +153,25 @@ padding-left: 15px;
     }
 
 
+/*recursos*/
+
+
+#parrafo-recursos{
+    padding: 20px;
+}
+
+#cards-recursos{
+    display: flex;
+    align-items: center;
+}
+
+.card1{
+padding: 10px;
+}
 
 
 /* galeria*/
+
 
 .hero-galeria{
     display: flex;
