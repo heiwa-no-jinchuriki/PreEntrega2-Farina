@@ -126,23 +126,17 @@ footer img{
     margin-top: 15px;
     margin-left: 10px;
     padding-bottom:20px;
-
 }
 
-.about-divs{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-}
 
 .about-divs{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     display: flex;
-    align-items: center;
     justify-content: space-evenly
+    }
+
+    .about-divs div1{
+        margin: 5px;
+        padding-right: 5px;
     }
 
  .segunda-parte-arriba-about{
@@ -171,19 +165,25 @@ padding: 10px;
 
 
 /* galeria*/
-
-
 .hero-galeria{
     display: flex;
     justify-content: center;
 }
 
-
-.galeria-divs{
+.hero-galeria h2{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: end;
+    margin: 50px;
 }
+
+.carousel-slide{
+    margin-bottom: 20px;
+}
+
+
+
+
+
 
 
 /* contact*/
@@ -192,7 +192,9 @@ margin: 10px;
 display: flex;
 justify-content: space-between;
 align-items: center;
+
 }
+
 
 /*mobile friendly - que sea lo último en el CSS*/
 @media only screen and (max-width: 500px){
